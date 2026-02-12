@@ -16,27 +16,27 @@ interface InsightCardProps {
 }
 
 const insightConfig: Record<InsightType, { 
-  icon: React.ReactNode; 
+  icon: ''; 
   borderColor: string;
   iconBg: string;
 }> = {
   warning: {
-    icon: <AlertTriangle className="w-5 h-5 text-warning" />,
+    icon: '',
     borderColor: "border-l-warning",
     iconBg: "bg-warning/10",
   },
   opportunity: {
-    icon: <TrendingUp className="w-5 h-5 text-success" />,
+    icon: '',
     borderColor: "border-l-success",
     iconBg: "bg-success/10",
   },
   restock: {
-    icon: <Package className="w-5 h-5 text-info" />,
+    icon: '',
     borderColor: "border-l-info",
     iconBg: "bg-info/10",
   },
   trending: {
-    icon: <Clock className="w-5 h-5 text-primary" />,
+    icon: '',
     borderColor: "border-l-primary",
     iconBg: "bg-primary/10",
   },

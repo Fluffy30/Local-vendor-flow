@@ -26,22 +26,22 @@ const QuickAction = ({ icon, label, description, onClick }: QuickActionProps) =>
 export const QuickActions = () => {
   const actions = [
     { 
-      icon: <Package className="w-5 h-5" />, 
+      icon: '', 
       label: "Add Inventory", 
       description: "Record new stock" 
     },
     { 
-      icon: <FileText className="w-5 h-5" />, 
+      icon: '', 
       label: "Create Order", 
       description: "New purchase order" 
     },
     { 
-      icon: <Truck className="w-5 h-5" />, 
+      icon: '', 
       label: "Track Shipment", 
       description: "Delivery status" 
     },
     { 
-      icon: <BarChart3 className="w-5 h-5" />, 
+      icon: '', 
       label: "View Reports", 
       description: "Sales analytics" 
     },
